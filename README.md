@@ -23,7 +23,7 @@ A handy Chrome and Edge extension that lets you browse every clip from a chosen 
 1. Open `chrome://extensions/` (or `edge://extensions/` in Edge).
 2. In the top-right corner, enable **Developer mode**.
 3. Click **Load unpacked**.
-4. Select the `Twitchclips` folder on your computer.
+4. Select the `TwitchClipsViewer` folder on your computer.
 
 ---
 
