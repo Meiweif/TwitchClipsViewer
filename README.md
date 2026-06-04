@@ -1,12 +1,11 @@
-# 🎬 Twitch Clips Viewer
-
-A handy Chrome and Edge extension that lets you browse every clip from a chosen Twitch channel on a dedicated page with convenient pagination (up to 100 clips per page), search, and flexible sorting.
+# 🎬 Twitch Clips Viewer  
+A handy Chrome and Edge extension that lets you browse every clip from a chosen [Twitch.tv](https://twitch.tv) channel on a dedicated page with convenient pagination (up to 100 clips per page), search, and flexible sorting.  
 
 ---
 
 ## ✨ Features
 
-* 🚀 **Full load** — fetches every clip on the channel via the Twitch Helix API with automatic pagination handling.
+* 🚀 **Full load** — fetches every clip from the channel via the Twitch Helix API with automatic pagination handling.
 * 📊 **High capacity** — shows up to 100 clips per page for easy browsing.
 * 🧭 **Easy navigation** — intuitive Back and Next buttons to move between pages.
 * 🗂️ **Flexible sorting:**
@@ -20,21 +19,25 @@ A handy Chrome and Edge extension that lets you browse every clip from a chosen 
 
 ## 🛠️ Installation
 
-1. Open `chrome://extensions/` (or `edge://extensions/` in Edge).
+### ✅ Method 1. Chrome Web Store (recommended)
+1. Open the extension page:  
+   [Chrome Web Store](https://chrome.google.com/webstore/detail/ongmdebchnmcepahoobnfmjolaomfhjj)
+2. Click **Add to Chrome**.
+3. Confirm installation.
+
+> [!NOTE]
+> This method is the easiest and safest. However, updates may be published here with a slight delay due to Chrome Web Store moderation.
+
+---
+
+### ⚡ Method 2. Manual install (faster updates)
+1. Open `chrome://extensions/` in your browser.
 2. In the top-right corner, enable **Developer mode**.
 3. Click **Load unpacked**.
 4. Select the `TwitchClipsViewer` folder on your computer.
 
----
-
-## 🔑 Twitch API setup
-
-The extension needs developer API credentials:
-
-1. Go to the [Twitch Developers Console](https://dev.twitch.tv/console).
-2. Create a new app (choose **Confidential** or **Public** with a generated Client Secret).
-3. Open the extension from its icon and go to **Twitch API settings**.
-4. Enter your **Client ID** and **Client Secret**, then click **Save**.
+> [!IMPORTANT]
+> This method allows you to receive updates faster than the Chrome Web Store version.
 
 ---
 
@@ -47,6 +50,7 @@ The extension needs developer API credentials:
 
 ### Method 2. Direct link
 You can open the clips page directly at:
+
 ```text
 chrome-extension://<EXTENSION_ID>/pages/tracking.html?channel=CHANNEL_NAME
 ```
